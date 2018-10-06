@@ -1,10 +1,10 @@
 #!/bin/bash
 echo "Wait for XSA to complete startup."
 
-instance="00"
+instance="90"
 
-#xsaport="3"$instance"33"
-xsaport="443"
+xsaport="3"$instance"30"
+#xsaport="443"
 
 echo -ne "Waiting for XSA API to start listening on $xsaport."
 
