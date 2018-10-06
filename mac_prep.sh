@@ -44,4 +44,6 @@ zypper ar http://download.opensuse.org/update/leap/42.2/non-oss/ update-non-oss
 zypper -n --gpg-auto-import-keys install --no-recommends --auto-agree-with-licenses --force-resolution htop tree git-core
 exit
 
+git clone https://github.com/alundesap/hxe_prep.git
+
 
